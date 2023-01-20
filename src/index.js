@@ -6,6 +6,7 @@ import App from './App';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
+
 const currentEvents = [
   {
     title: "example 1",
@@ -15,6 +16,11 @@ const currentEvents = [
   {
     title: "example 2",
     date: "4/5/06",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    title: "example 3",
+    date: "7/8/09",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 ]
@@ -55,6 +61,9 @@ root.render(
               <div class="event">
                 <h3 class="miniheader">{event.date}</h3>
                 <h2 class="subheader">{event.title}</h2>
+                <div class="eventdesc">
+                  <p class="description">{event.description}</p>
+                </div>
               </div>
             ))
           }
