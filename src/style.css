@@ -1,0 +1,194 @@
+/* 
+
+Is this code readable? no
+Does it work? barely
+Am I going to make it better? god no
+
+to whoever wants to clean this up good luck
+
+*/
+
+html,
+body {
+  background-image: url("https://media.istockphoto.com/id/1221025677/photo/abstract-blue-background-minimal-geometric-background-for-use-in-design.jpg?s=612x612&w=0&k=20&c=anpqkv5H6BGc190yQU0riwViQIUcNUQjhLLMRpbFOEE=");
+  margin: 0;
+  padding: 0;
+  clear:both;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 5px solid;
+  border-color: rgb(146, 1, 1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a img {
+  padding: 0px 10px;
+}
+
+.navbar a {
+  border-left: 5px solid rgb(168, 0, 0);
+  float: right;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 20px 0px;
+  transform: translateY(100%);
+}
+
+.navbar a:last-child {
+  padding-right: 50px;
+}
+
+.navbar a:hover {
+  color: rgb(1, 1, 95);
+}
+
+.navbar img,
+.navbar h3 {
+  float: left;
+}
+
+.navbar img {
+  padding: 10px 30px;
+}
+
+.navbar h2 {
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: rgb(0, 0, 114);
+  margin: 0;
+  transform: translateY(50%);
+}
+
+.navbar h3 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+#title {
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+  border: 2px solid maroon;
+  width: 25%;
+}
+
+.subheader {
+  font-size: 30px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+#container { 
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  margin: 5px;
+  padding: 30px;
+}
+
+section:not(#container) {
+  margin: 15px;
+}
+
+#main-section {
+  background-color: white;
+  width: 65%;
+}
+
+#events-section {
+  overflow: auto;
+  background-color: white;
+  width: 35%;
+}
+
+#welcome-info p {
+  margin: 5%;
+  font-size: 20px;
+  text-align: center;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sociallist {
+  margin: auto;
+}
+
+.sociallist li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sociallist img {
+  margin: 5px;
+  width: 4rem;
+}
+
+#twitter {
+  border-radius: 25%;
+}
+
+.mini-header {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.link-holder {
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightgray;
+  width: 250px;
+  height: 250px;
+  margin: 5%;
+}
+
+.header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.event {
+  width: 100%;
+  height: 10%;
+  margin: 25px 0px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.event h3,
+.event h2 {
+  float: left;
+  margin-left: 15px;
+}
+
+.event h3 {
+  border-left: 5px solid maroon;
+  padding-left: 10px;
+}
