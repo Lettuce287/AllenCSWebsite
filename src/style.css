@@ -11,6 +11,7 @@ to whoever wants to clean this up good luck
 html,
 body {
   background-image: url('https://media.istockphoto.com/id/1221025677/photo/abstract-blue-background-minimal-geometric-background-for-use-in-design.jpg?s=612x612&w=0&k=20&c=anpqkv5H6BGc190yQU0riwViQIUcNUQjhLLMRpbFOEE=');
+  background-size: cover;
   margin: 0;
   padding: 0;
   clear: both;
@@ -106,6 +107,7 @@ hr {
 }
 
 section {
+  border-radius: 10px;
   margin: 5px;
   padding: 30px;
 }
@@ -163,8 +165,8 @@ section:not(#container) {
 .link-holder {
   border-radius: 20px;
   text-align: center;
-  background-color: lightgray;
-  width: 250px;
+  background-color: rgb(231, 231, 231);
+  width: 275px;
   height: 250px;
   margin: 5%;
 }
