@@ -1,3 +1,5 @@
-# AllenCSWebsite
+#is the code readable? no
+#does it work? barely
+#am i going to make it cleaner? god no
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-unfiua)
+#to whoever wants to work on this good luck lol
