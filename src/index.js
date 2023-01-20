@@ -24,7 +24,7 @@ const currentEvents = [
 root.render(
   <StrictMode>
     
-    <div class="navbar">
+    <div id="navbar">
         <ul>
           <li>
             <a href="https://life.allencs.org/">STEAM Life</a>
